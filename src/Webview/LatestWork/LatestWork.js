@@ -1,27 +1,48 @@
-import React from 'react'
-import LatestworkDesigns from '../Component/LatestworkDesigns/LatestworkDesigns'
+import React from "react";
+import LatestworkDesigns from "../Component/LatestworkDesigns/LatestworkDesigns";
+import "../Image/img2.PNG";
+import "../Image/image.png";
+import "../Image/design1.PNG";
 
 // ../../../public/Image/design1.PNG
 
 const LatestWork = () => {
-    const designs = [
-        { image:"../Image/design1.PNG", link: 'https://web-assignment-fitpeo-tech.vercel.app/' },
-        { image:"../Image/design1.PNG", link: 'https://wodmart-nextjs-project.vercel.app/' },
-        { image:"../Image/design1.PNG", link: 'https://test-project-wheat-omega.vercel.app/' },
-       
-        
-      ];
+  const designs = [
+    {
+      image: "../Image/design1.PNG",
+      link: "https://web-assignment-fitpeo-tech.vercel.app/",
+    },
+    {
+      image: "../Image/img2.png",
+      link: "https://wodmart-nextjs-project.vercel.app/",
+    },
+    {
+      image: "../Image/image.png",
+      link: "https://test-project-wheat-omega.vercel.app/",
+    },
+    {
+      image: "../Image/design1.PNG",
+      link: "https://test-project-wheat-omega.vercel.app/",
+    },
+  ];
   return (
-    <div className=' grid grid-cols-4'>
-      
-     
-        {
-            designs.map((design,index)=> (
-            <LatestworkDesigns key={index} designImage={design.image} vercelLink={design.link} />
-        ))
-        }
-    </div>
-  )
-}
+    <div className="bg-[#f4f2ee]  px-12 py-8 lg:py-5 ">
+      <div className="text-xl md:text-3xl font-semibold  text-center mb-5 md:mt-0  ">
+        Latest Works
+      </div>
 
-export default LatestWork
+      <div className=" grid grid-cols-1 md:grid-cols-2   justify-start  ">
+        {designs.map((design, index) => (
+          <LatestworkDesigns
+            key={index}
+            designImage={design.image}
+            vercelLink={design.link}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default LatestWork;
+

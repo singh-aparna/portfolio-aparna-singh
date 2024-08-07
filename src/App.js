@@ -6,19 +6,23 @@ import PopUp from "./Webview/Component/PopUp/PopUp";
 import LatestWork from "./Webview/LatestWork/LatestWork";
 
 function App() {
-  return <BrowserRouter>
-  <div className="flex ">
-    <div className="flex min-h-screen " ><Header/></div>
-   
-    <div className="flex-1">
-    <Routes>
-      <Route exact path="/" element={<MainSection/>}></Route>
-      <Route exact path="/latest-work" element={<LatestWork/>}></Route>
-      <Route exact path="/popup" element={<PopUp/>}></Route>
-    </Routes>
-    </div>
-    </div>
-  </BrowserRouter>
+  return (
+    <BrowserRouter>
+      <div className="flex h-screen bg-[#f4f2ee]">
+        <div className="w-[60px] md:w-[120px] h-full "><Header /></div>
+
+        <div className="flex-grow h-full">
+        <Routes>
+          <Route exact path="/" element={<MainSection />}></Route>
+          <Route exact path="/" element={<PopUp />}></Route>
+
+          <Route exact path="/latest-work" element={<LatestWork />}></Route>
+          <Route exact path="/popup" element={<PopUp />}></Route>
+        </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
+  );                                                                            
 }
 
 export default App;
