@@ -13,7 +13,7 @@ const LatestWork = () => {
       link: "https://web-assignment-fitpeo-tech.vercel.app/",
     },
     {
-      image: "../Image/img2.png",
+      image: "../Image/img2.PNG",
       link: "https://wodmart-nextjs-project.vercel.app/",
     },
     {
