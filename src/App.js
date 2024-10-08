@@ -4,6 +4,7 @@ import Header from "./Webview/Header/Header";
 import MainSection from "./Webview/MainSection/MainSection";
 import PopUp from "./Webview/Component/PopUp/PopUp";
 import LatestWork from "./Webview/LatestWork/LatestWork";
+import Experience from "./Webview/Experience/Experience";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/" element={<PopUp />}></Route>
 
           <Route exact path="/latest-work" element={<LatestWork />}></Route>
+          <Route exact path="/experience" element={<Experience />}></Route>
           <Route exact path="/popup" element={<PopUp />}></Route>
         </Routes>
         </div>

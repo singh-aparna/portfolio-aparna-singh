@@ -17,10 +17,8 @@ const Section1 = () => {
         <div className="text-2xl md:text-6xl">Mern Stack Developer</div>
         <NavLink to="/popup"><Button title="About me" onClick={openPopUp}/></NavLink>
         <NavLink to="/latest-work"><div className=""><Button title="Latest Work" /></div></NavLink>
-      </div>
-      
-     
-   
+        <NavLink to="/experience"><div className=""><Button title="Experience" /></div></NavLink>
+      </div>   
   );
 };
 
