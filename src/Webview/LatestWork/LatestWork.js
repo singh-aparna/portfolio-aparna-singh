@@ -3,6 +3,7 @@ import LatestworkDesigns from "../Component/LatestworkDesigns/LatestworkDesigns"
 import "../Image/img2.PNG";
 import "../Image/image.png";
 import "../Image/design1.PNG";
+import "../Image/image-4.png";
 
 // ../../../public/Image/design1.PNG
 
