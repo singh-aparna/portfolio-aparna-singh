@@ -21,8 +21,8 @@ const LatestWork = () => {
       link: "https://test-project-wheat-omega.vercel.app/",
     },
     {
-      image: "../Image/design1.PNG",
-      link: "https://test-project-wheat-omega.vercel.app/",
+      image: "../Image/image-4.png",
+      link: "https://prove-way-assignment.vercel.app/",
     },
   ];
   return (
