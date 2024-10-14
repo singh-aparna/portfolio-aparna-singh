@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="flex h-screen bg-[#f4f2ee]">
-        <div className="w-[60px] md:w-[120px] h-full "><Header /></div>
+        <div className="w-[57px] h-full "><Header /></div>
 
         <div className="flex-grow h-full">
         <Routes>

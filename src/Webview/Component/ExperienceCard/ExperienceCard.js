@@ -2,7 +2,7 @@ import React from 'react'
 
 const ExperienceCard = ({ company, profile, project, tech, responsibility1, responsibility2, responsibility3, responsibility4 }) => {
     return (
-        <div className='border p-2 gap-y-2 flex flex-col '>
+        <div className='border-t-2 gap-y-2 flex flex-col '>
             <div className='font-semibold text-xl'>{company}</div>
             <div>{profile}</div>
             <div>{project}

@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="h-full fixed flex flex-col justify-center items-center p-5 md:p-10 gap-10  bg-black text-white">
+    <div className="h-full fixed flex flex-col justify-center items-center p-4 md:p-7 gap-10  bg-black text-white">
       <NavLink to="/" className=" hover:text-blue-700">
         <AiFillHome size={25} />
       </NavLink>

@@ -3,7 +3,7 @@ import ExperienceCard from '../Component/ExperienceCard/ExperienceCard'
 
 const Experience = () => {
   return (
-    <div className='pl-16 pt-8 flex flex-col gap-y-4' >
+    <div className='pl-20 pt-14 flex flex-col gap-y-4' >
       <div className='text-xl md:text-3xl font-semibold'>Experience</div>
       <ExperienceCard company="Equipped Analytical Intelligence - Noida" profile="Software Engineer I"
         project="Project - Minerva (Minerva, enables clients to collect, compile, analyse and better understand data in order to help
