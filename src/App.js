@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="flex bg-[#f4f2ee]">
-        <div className="w-[57px] top-0 left-0 h-screen fixed "><Header /></div>
+        <div className="w-[57px] top-0 left-0 fixed h-screen "><Header /></div>
 
-        <div className="flex-grow-1 h-screen">
+        <div className="flex-1 h-screen overflow-auto">
         <Routes>
           <Route exact path="/" element={<MainSection />}></Route>
           <Route exact path="/" element={<PopUp />}></Route>
