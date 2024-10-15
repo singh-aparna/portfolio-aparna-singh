@@ -9,10 +9,10 @@ import Experience from "./Webview/Experience/Experience";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex h-screen bg-[#f4f2ee]">
-        <div className="w-[57px] top-0 left-0 h-full fixed "><Header /></div>
+      <div className="flex bg-[#f4f2ee]">
+        <div className="w-[57px] top-0 left-0 h-screen fixed "><Header /></div>
 
-        <div className="flex-grow h-screen">
+        <div className="flex-grow-1 h-screen">
         <Routes>
           <Route exact path="/" element={<MainSection />}></Route>
           <Route exact path="/" element={<PopUp />}></Route>
