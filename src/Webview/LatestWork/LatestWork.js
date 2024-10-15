@@ -27,7 +27,7 @@ const LatestWork = () => {
     },
   ];
   return (
-    <div className="bg-[#f4f2ee]  px-12 py-8 lg:py-5 ">
+    <div className="bg-[#f4f2ee] px-24  md:px-32  py-8 lg:py-5 ">
       <div className="text-xl md:text-3xl font-semibold  text-center mb-5 md:mt-0  ">
         Latest Works
       </div>

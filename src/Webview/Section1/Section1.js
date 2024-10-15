@@ -11,7 +11,7 @@ const Section1 = () => {
   const openPopUp = () => {
   }
   return (
-    <div className="h-screen  flex flex-col gap-5 mx-0 px-2 md:px-20  pt-32 font-semibold text-white bg-[#3b383f] ">
+    <div className="h-screen  flex flex-col gap-5 mx-0 px-16 md:px-20  pt-32 font-semibold text-white bg-[#3b383f] ">
       <div className="text-2xl md:text-3xl">I'm a Mern Stack Developer</div>
       <div className="text-5xl md:text-6xl leading-snug tracking-tightest">Aparna Singh</div>
       <ProfileCard />

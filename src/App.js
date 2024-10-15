@@ -9,7 +9,7 @@ import Experience from "./Webview/Experience/Experience";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex bg-[#f4f2ee]">
+      <div className="flex h-screen bg-[#f4f2ee]">
         <div className="w-[57px] top-0 left-0 h-full fixed "><Header /></div>
 
         <div className="flex-1">
