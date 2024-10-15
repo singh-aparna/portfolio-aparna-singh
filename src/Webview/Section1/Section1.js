@@ -17,7 +17,7 @@ const Section1 = () => {
       <ProfileCard />
       <div> <a href="../document/Singh_Aparna_Resume.pdf"
         download="Singh_Aparna_Resume.pdf"><Button className="tracking-wider" title={<span className="flex justify-center items-center  gap-x-2">DOWNLOAD CV <HiDownload /></span>} /></a></div>
-      <div className="flex gap-x-4 md:gap-x-6 mt-10">
+      <div className="flex gap-x-3 md:gap-x-6 mt-10">
         <NavLink to="/popup"><Button title="About me" onClick={openPopUp} /></NavLink>
         <NavLink to="/latest-work"><div className=""><Button title="Latest Work" /></div></NavLink>
         <NavLink to="/experience"><div className=""><Button title="Experience" /></div></NavLink>
