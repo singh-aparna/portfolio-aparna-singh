@@ -12,7 +12,7 @@ function App() {
       <div className="flex h-screen bg-[#f4f2ee]">
         <div className="w-[57px] top-0 left-0 h-full fixed "><Header /></div>
 
-        <div className="flex-grow">
+        <div className="flex-grow h-screen">
         <Routes>
           <Route exact path="/" element={<MainSection />}></Route>
           <Route exact path="/" element={<PopUp />}></Route>
