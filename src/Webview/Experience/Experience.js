@@ -4,7 +4,7 @@ import ExperienceCard from '../Component/ExperienceCard/ExperienceCard'
 const Experience = () => {
   return (
     <div className='pl-20 pt-14 flex flex-col gap-y-4  text-white bg-[#3b383f] ' >
-      <div className='text-xl md:text-3xl font-semibold'>Experiences</div>
+      <div className='text-4xl md:text-5xl font-bold text-center tracking-wider'>Experiences</div>
       <ExperienceCard period="Mar,2023-October,2023" company="Equipped Analytical Intelligence - Noida" profile="Software Engineer I"
         project="Project - Minerva (Minerva, enables clients to collect, compile, analyse and better understand data in order to help
 them make important decisions and ultimately produce superior returns for their investors.)"
