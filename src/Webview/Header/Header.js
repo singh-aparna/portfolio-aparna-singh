@@ -7,15 +7,15 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="h-full fixed flex flex-col justify-center items-center p-4 md:p-7 gap-10  bg-black text-white">
-      <NavLink to="/" className=" hover:text-blue-700">
+    <div className="h-full fixed top-0 left-0 flex flex-col justify-center items-center p-4 md:p-7 gap-10  bg-black text-white">
+      <NavLink to="/" className=" hover:text-[#f7914d]">
         <AiFillHome size={25} />
       </NavLink>
       <a
         href="https://www.linkedin.com/in/singh-03-aparna/"
         target="_blank"
         rel="noopener noreferrer"
-        className=" hover:text-blue-700"
+        className=" hover:text-[#f7914d]"
       >
         <BsLinkedin size={25} />
       </a>
@@ -24,7 +24,7 @@ const Header = () => {
         href="https://leetcode.com/u/singh123aparna/"
         target="_blank"
         rel="noopener noreferrer"
-        className=" hover:text-blue-700"
+        className=" hover:text-[#f7914d]"
       >
         <SiLeetcode size={25} />
       </a>
@@ -33,7 +33,7 @@ const Header = () => {
         href="https://github.com/singh-aparna"
         target="_blank"
         rel="noopener noreferrer"
-        className=" hover:text-blue-700"
+        className=" hover:text-[#f7914d]"
       >
         <IoLogoGithub size={25} />
       </a>
