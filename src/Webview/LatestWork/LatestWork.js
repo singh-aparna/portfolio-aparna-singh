@@ -25,6 +25,10 @@ const LatestWork = () => {
       image: "../Image/image-4.png",
       link: "https://prove-way-assignment.vercel.app/",
     },
+    {
+      image: "../Image/Image5.png",
+      link: "https://caption-video-webapp.vercel.app/",
+    },
   ];
   return (
     <div className="bg-[#f4f2ee] px-24  md:px-32  py-8 lg:py-5 ">
