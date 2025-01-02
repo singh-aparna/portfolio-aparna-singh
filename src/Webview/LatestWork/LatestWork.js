@@ -33,7 +33,7 @@ const LatestWork = () => {
   return (
     <div className="bg-[#f4f2ee] px-24  md:px-32  py-8 lg:py-5 ">
       <div className="text-xl md:text-3xl font-semibold  text-center mb-5 md:mt-0  ">
-        Latest Works
+        Latest Projects
       </div>
 
       <div className=" grid grid-cols-1 md:grid-cols-2   justify-start  ">
