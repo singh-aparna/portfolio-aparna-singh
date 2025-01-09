@@ -4,6 +4,8 @@ import "../Image/img2.PNG";
 import "../Image/image.png";
 import "../Image/design1.PNG";
 import "../Image/image-4.png";
+import "../Image/Image5.png";
+import "../Image/Image6.png";
 
 // ../../../public/Image/design1.PNG
 
@@ -29,6 +31,10 @@ const LatestWork = () => {
       image: "../Image/Image5.png",
       link: "https://caption-video-webapp.vercel.app/",
     },
+    {
+      image: "../Image/Image6.png",
+      link: "https://to-do-app-react-node-uclf.vercel.app/",
+    }
   ];
   return (
     <div className="bg-[#f4f2ee] px-24  md:px-32  py-8 lg:py-5 ">
