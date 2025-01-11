@@ -61,7 +61,7 @@ const LatestWork = () => {
       ProjectDesc: ""
     },
     {
-      image: "../Image/Image11.PNG",
+      image: "../Image/Image11.png",
       link: "https://web-assignment-fitpeo-tech.vercel.app/",
       ProjectName: "Website Clone",
       ProjectDesc: ""
@@ -79,7 +79,7 @@ const LatestWork = () => {
       ProjectDesc: ""
     },
     {
-      image: "../Image/Image22.PNG",
+      image: "../Image/Image22.png",
       link: "https://wodmart-nextjs-project.vercel.app/",
       ProjectName: "Website Clone",
       ProjectDesc: ""
