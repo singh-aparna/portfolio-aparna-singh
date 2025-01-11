@@ -36,7 +36,7 @@ const PopUp = () => {
                 <NavLink to="/"><Button title="Ok" onClick={closePopUp} /> </NavLink>
             </div>
 
-            <div className='flex  justify-center '><img className='md:h-[400px] md:w-[400px] hidden lg:block ' src='https://www.kindpng.com/picc/m/145-1451249_logo-web-development-icon-hd-png-download.png' /></div>
+            <div className='flex  justify-center '><img className='md:h-[400px] md:w-[400px] hidden lg:block ' src="../Image/cover.png" /></div>
         </div>
     )
 }

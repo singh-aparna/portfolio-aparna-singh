@@ -25,10 +25,10 @@ const LatestworkDesigns = ({ designImage, vercelLink, ProjectName, ProjectDesc }
     //   </div>
     // </div>
 
-    <div className="flex flex-col gap-4 p-1 border-2 rounded-xl hover:border-green-500 ">
+    <div className="flex flex-col gap-4 p-1 border-2 rounded-xl border-[#cbbced] hover:border-green-500 ">
 
-      <div className="border border-gray-300"><img src={designImage} alt="Design" onClick={handleClick} className="h-96 w-full " /></div>
-      <div className="text-center">{ProjectName}</div>
+      <div className=" "><img src={designImage} alt="Design" onClick={handleClick} className="h-96 w-full " /></div>
+      <div className="text-center ">{ProjectName}</div>
       <div className="text-center">{ProjectDesc}</div>
 
     </div>
