@@ -6,52 +6,112 @@ import "../Image/design1.PNG";
 import "../Image/image-4.png";
 import "../Image/Image5.png";
 import "../Image/Image6.png";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // ../../../public/Image/design1.PNG
 
 const LatestWork = () => {
+
+  var settings = {
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    autoplaySpeed: 0,
+    speed: 3000,
+    slidesToShow: 3,
+    // slidesToScroll: 1,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          // slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          // slidesToScroll: 1,
+        },
+      },  
+      {
+        breakpoint: 640,
+        settings:{
+          slidesToShow:1
+        }
+        // settings: 'unslick',
+      },
+    ],
+
+  };
+
   const designs = [
     {
-      image: "../Image/design1.PNG",
-      link: "https://web-assignment-fitpeo-tech.vercel.app/",
-    },
-    {
-      image: "../Image/img2.PNG",
-      link: "https://wodmart-nextjs-project.vercel.app/",
-    },
-    {
-      image: "../Image/image.png",
-      link: "https://test-project-wheat-omega.vercel.app/",
-    },
-    {
-      image: "../Image/image-4.png",
-      link: "https://prove-way-assignment.vercel.app/",
-    },
-    {
-      image: "../Image/Image5.png",
-      link: "https://caption-video-webapp.vercel.app/",
-    },
-    {
-      image: "../Image/Image6.png",
+      image: "../Image/Image66.png",
       link: "https://to-do-app-react-node-uclf.vercel.app/",
-    }
+      ProjectName: "To-Do App",
+      ProjectDesc:""
+    },
+    {
+      image: "../Image/Image11.PNG",
+      link: "https://web-assignment-fitpeo-tech.vercel.app/",
+      ProjectName: "Website Clone",
+      ProjectDesc:""
+    },
+    {
+      image: "../Image/Image55.png",
+      link: "https://caption-video-webapp.vercel.app/",
+      ProjectName: "Caption-Video-App",
+      ProjectDesc:""
+    },
+    {
+      image: "../Image/Image44.png",
+      link: "https://prove-way-assignment.vercel.app/",
+      ProjectName: "Website Clone",
+      ProjectDesc:""
+    },
+    {
+      image: "../Image/Image22.PNG",
+      link: "https://wodmart-nextjs-project.vercel.app/",
+      ProjectName: "Website Clone",
+      ProjectDesc:""
+    },
+    {
+      image: "../Image/Image33.png",
+      link: "https://test-project-wheat-omega.vercel.app/",
+      ProjectName: "Website Clone",
+      ProjectDesc:""
+    },
   ];
   return (
-    <div className="bg-[#f4f2ee] px-24  md:px-32  py-8 lg:py-5 ">
+    <div className="bg-[#f4f2ee] px-10  md:px-24  py-8 lg:py-5 ">
       <div className="text-xl md:text-3xl font-semibold  text-center mb-5 md:mt-0  ">
         Latest Projects
       </div>
 
-      <div className=" grid grid-cols-1 md:grid-cols-2   justify-start  ">
+      
+      <div className="h-full w-full px-12 ">
+      <Slider {...settings} className="">
         {designs.map((design, index) => (
+          
           <LatestworkDesigns
             key={index}
             designImage={design.image}
             vercelLink={design.link}
+            ProjectName={design.ProjectName}
+            ProjectDesc={design.ProjectDesc}
           />
+         
         ))}
+        </Slider>
       </div>
+     
     </div>
+    // grid grid-cols-3 md:grid-cols-2   justify-start
   );
 };
 
