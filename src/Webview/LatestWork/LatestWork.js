@@ -37,11 +37,11 @@ const LatestWork = () => {
           slidesToShow: 2,
           // slidesToScroll: 1,
         },
-      },  
+      },
       {
         breakpoint: 640,
-        settings:{
-          slidesToShow:1
+        settings: {
+          slidesToShow: 1
         }
         // settings: 'unslick',
       },
@@ -54,37 +54,37 @@ const LatestWork = () => {
       image: "../Image/Image66.png",
       link: "https://to-do-app-react-node-uclf.vercel.app/",
       ProjectName: "To-Do App",
-      ProjectDesc:""
+      ProjectDesc: ""
     },
     {
       image: "../Image/Image11.PNG",
       link: "https://web-assignment-fitpeo-tech.vercel.app/",
       ProjectName: "Website Clone",
-      ProjectDesc:""
+      ProjectDesc: ""
     },
     {
       image: "../Image/Image55.png",
       link: "https://caption-video-webapp.vercel.app/",
       ProjectName: "Caption-Video-App",
-      ProjectDesc:""
+      ProjectDesc: ""
     },
     {
       image: "../Image/Image44.png",
       link: "https://prove-way-assignment.vercel.app/",
       ProjectName: "Website Clone",
-      ProjectDesc:""
+      ProjectDesc: ""
     },
     {
       image: "../Image/Image22.PNG",
       link: "https://wodmart-nextjs-project.vercel.app/",
       ProjectName: "Website Clone",
-      ProjectDesc:""
+      ProjectDesc: ""
     },
     {
       image: "../Image/Image33.png",
       link: "https://test-project-wheat-omega.vercel.app/",
       ProjectName: "Website Clone",
-      ProjectDesc:""
+      ProjectDesc: ""
     },
   ];
   return (
@@ -93,23 +93,23 @@ const LatestWork = () => {
         Latest Projects
       </div>
 
-      
+
       <div className="h-full w-full px-12 ">
-      <Slider {...settings} className="">
-        {designs.map((design, index) => (
-          
-          <LatestworkDesigns
-            key={index}
-            designImage={design.image}
-            vercelLink={design.link}
-            ProjectName={design.ProjectName}
-            ProjectDesc={design.ProjectDesc}
-          />
-         
-        ))}
+        <Slider {...settings} className="">
+          {designs.map((design, index) => (
+
+            <LatestworkDesigns
+              key={index}
+              designImage={design.image}
+              vercelLink={design.link}
+              ProjectName={design.ProjectName}
+              ProjectDesc={design.ProjectDesc}
+            />
+
+          ))}
         </Slider>
       </div>
-     
+
     </div>
     // grid grid-cols-3 md:grid-cols-2   justify-start
   );

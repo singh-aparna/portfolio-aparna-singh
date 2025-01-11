@@ -13,18 +13,18 @@ function App() {
         <div className="w-[57px] top-0 left-0 fixed h-screen "><Header /></div>
 
         <div className="flex-1 h-screen overflow-auto">
-        <Routes>
-          <Route exact path="/" element={<MainSection />}></Route>
-          <Route exact path="/" element={<PopUp />}></Route>
+          <Routes>
+            <Route exact path="/" element={<MainSection />}></Route>
+            <Route exact path="/" element={<PopUp />}></Route>
 
-          <Route exact path="/latest-work" element={<LatestWork />}></Route>
-          <Route exact path="/experience" element={<Experience />}></Route>
-          <Route exact path="/popup" element={<PopUp />}></Route>
-        </Routes>
+            <Route exact path="/latest-work" element={<LatestWork />}></Route>
+            <Route exact path="/experience" element={<Experience />}></Route>
+            <Route exact path="/popup" element={<PopUp />}></Route>
+          </Routes>
         </div>
       </div>
     </BrowserRouter>
-  );                                                                            
+  );
 }
 
 export default App;
