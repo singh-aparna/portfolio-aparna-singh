@@ -55,21 +55,9 @@ const LatestWork = () => {
 
   const designs2 = [
     {
-      image: "../Image/Image66.png",
-      link: "https://to-do-app-react-node-uclf.vercel.app/",
-      ProjectName: "To-Do App",
-      ProjectDesc: ""
-    },
-    {
       image: "../Image/Image11.png",
       link: "https://web-assignment-fitpeo-tech.vercel.app/",
       ProjectName: "Website Clone",
-      ProjectDesc: ""
-    },
-    {
-      image: "../Image/Image55.png",
-      link: "https://caption-video-webapp.vercel.app/",
-      ProjectName: "Caption-Video-App",
       ProjectDesc: ""
     },
     {
