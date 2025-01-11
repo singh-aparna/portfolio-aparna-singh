@@ -53,7 +53,7 @@ const LatestWork = () => {
 
   };
 
-  const designs = [
+  const designs2 = [
     {
       image: "../Image/Image66.png",
       link: "https://to-do-app-react-node-uclf.vercel.app/",
@@ -89,18 +89,56 @@ const LatestWork = () => {
       link: "https://test-project-wheat-omega.vercel.app/",
       ProjectName: "Website Clone",
       ProjectDesc: ""
+    }]
+
+
+
+  const designs1 = [
+    {
+      image: "../Image/Image66.png",
+      link: "https://to-do-app-react-node-uclf.vercel.app/",
+      ProjectName: "To-Do App",
+      ProjectDesc: ""
     },
+    {
+      image: "../Image/Image55.png",
+      link: "https://caption-video-webapp.vercel.app/",
+      ProjectName: "Caption-Video-App",
+      ProjectDesc: ""
+    }
   ];
   return (
-    <div className="bg-[#f4f2ee] px-10  md:px-24  py-8 lg:py-5 ">
+    <div className="bg-[#f4f2ee] px-10  md:px-24  py-8 lg:py-12 " >
       <div className="text-xl md:text-3xl font-semibold  text-center mb-5 md:mt-0  ">
-        Latest Projects
+        LATEST PROJECTS
       </div>
 
 
       <div className="h-full w-full px-12 ">
+        <div className="text-center text-lg md:text-xl font-semibold">MERN STACK PROJECTS</div>
+        <br />
         <Slider {...settings} className="">
-          {designs.map((design, index) => (
+
+          {designs1.map((design, index) => (
+
+            <LatestworkDesigns
+              key={index}
+              designImage={design.image}
+              vercelLink={design.link}
+              ProjectName={design.ProjectName}
+              ProjectDesc={design.ProjectDesc}
+            />
+
+          ))}
+        </Slider>
+
+        <br />
+        <br />
+        <div className="text-center text-lg md:text-xl font-semibold">WEBSITE CLONE</div>
+        <br />
+        <Slider {...settings} className="">
+
+          {designs2.map((design, index) => (
 
             <LatestworkDesigns
               key={index}
