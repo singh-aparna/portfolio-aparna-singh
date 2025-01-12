@@ -5,7 +5,7 @@ import LatestworkDesigns from "../Component/LatestworkDesigns/LatestworkDesigns"
 // import "../Image/design1.PNG";
 // import "../Image/image-4.png";
 import "../Image/Image55.png";
-import "../Image/Image66.png";
+import "../Image/Image77.png";
 import "../Image/Image11.png";
 import "../Image/Image22.png";
 import "../Image/Image33.png";
@@ -84,7 +84,7 @@ const LatestWork = () => {
 
   const designs1 = [
     {
-      image: "../Image/Image66.png",
+      image: "../Image/Image77.png",
       link: "https://to-do-app-react-node-uclf.vercel.app/",
       ProjectName: "To-Do App",
       ProjectDesc: ""
