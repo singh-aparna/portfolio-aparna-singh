@@ -36,9 +36,9 @@ npm start
 
 ## ✨ Future Enhancements
 
--Add a contact form for direct communication.
--Integrate a blog section to share insights and tutorials.
--Enhance animations and transitions for a smoother user experience.
+- Add a contact form for direct communication.
+- Integrate a blog section to share insights and tutorials.
+- Enhance animations and transitions for a smoother user experience.
 
 ## 🤝 Contributions
 Feel free to fork this repository and submit pull requests for improvements!
