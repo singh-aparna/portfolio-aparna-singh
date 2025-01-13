@@ -14,9 +14,9 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 ## 📚 What I Learned
 
--Building responsive, accessible, and visually appealing designs with Tailwind CSS.
--Structuring a React application to ensure scalability and maintainability.
--Managing state and implementing reusable components in React.
+- Building responsive, accessible, and visually appealing designs with Tailwind CSS.
+- Structuring a React application to ensure scalability and maintainability.
+- Managing state and implementing reusable components in React.
 
 ## 🔧 How to Use
 
