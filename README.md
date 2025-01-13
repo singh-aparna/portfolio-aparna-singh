@@ -9,14 +9,14 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 ## 🛠 Tech Stack
 
-**Frontend**: React
-**Styling**: Tailwind CSS
+-**Frontend**: React
+-**Styling**: Tailwind CSS
 
 ## 📚 What I Learned
 
-Building responsive, accessible, and visually appealing designs with Tailwind CSS.
-Structuring a React application to ensure scalability and maintainability.
-Managing state and implementing reusable components in React.
+-Building responsive, accessible, and visually appealing designs with Tailwind CSS.
+-Structuring a React application to ensure scalability and maintainability.
+-Managing state and implementing reusable components in React.
 
 ## 🔧 How to Use
 
@@ -36,9 +36,9 @@ npm start
 
 ## ✨ Future Enhancements
 
-Add a contact form for direct communication.
-Integrate a blog section to share insights and tutorials.
-Enhance animations and transitions for a smoother user experience.
+-Add a contact form for direct communication.
+-Integrate a blog section to share insights and tutorials.
+-Enhance animations and transitions for a smoother user experience.
 
 ## 🤝 Contributions
 Feel free to fork this repository and submit pull requests for improvements!
