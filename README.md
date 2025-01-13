@@ -9,8 +9,8 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 ## 🛠 Tech Stack
 
--**Frontend**: React
--**Styling**: Tailwind CSS
+- **Frontend**: React
+- **Styling**: Tailwind CSS
 
 ## 📚 What I Learned
 
