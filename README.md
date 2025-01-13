@@ -3,9 +3,9 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 ## **🚀 Key Features**
 
-**About Me**: A brief introduction highlighting my skills, interests, and goals.
-**Experience**: A detailed section showcasing my professional journey and accomplishments.
-**Latest Projects**: An overview of the projects I’ve worked on, with links and descriptions.
+- **About Me**: A brief introduction highlighting my skills, interests, and goals.
+- **Experience**: A detailed section showcasing my professional journey and accomplishments.
+- **Latest Projects**: An overview of the projects I’ve worked on, with links and descriptions.
 
 ## 🛠 Tech Stack
 
