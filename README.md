@@ -1,7 +1,7 @@
 # My Personal Portfolio 🌟
 Welcome to my personal portfolio! This project showcases my skills, experience, and the projects I’ve worked on. Built using React, Tailwind CSS and MERN Stack, this portfolio reflects my passion for web development and clean design.
 
-## 🚀 Key Features
+## **🚀 Key Features**
 
 **About Me**: A brief introduction highlighting my skills, interests, and goals.
 **Experience**: A detailed section showcasing my professional journey and accomplishments.
@@ -21,6 +21,7 @@ Managing state and implementing reusable components in React.
 ## 🔧 How to Use
 
 **Clone this repository**: git clone https://github.com/your-username/portfolio.git
+
 **Navigate to the project directory**: cd portfolio
 
 ## Install dependencies:
