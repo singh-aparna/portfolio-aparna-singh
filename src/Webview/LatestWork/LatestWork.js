@@ -4,7 +4,7 @@ import LatestworkDesigns from "../Component/LatestworkDesigns/LatestworkDesigns"
 // import "../Image/image.png";
 // import "../Image/design1.PNG";
 // import "../Image/image-4.png";
-import "../Image/Image55.png";
+import "../Image/Image88.png";
 import "../Image/Image77.png";
 import "../Image/Image11.png";
 import "../Image/Image22.png";
@@ -90,7 +90,7 @@ const LatestWork = () => {
       ProjectDesc: ""
     },
     {
-      image: "../Image/Image55.png",
+      image: "../Image/Image88.png",
       link: "https://caption-video-webapp.vercel.app/",
       ProjectName: "Caption-Video-App",
       ProjectDesc: ""
