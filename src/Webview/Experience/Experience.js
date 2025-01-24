@@ -5,10 +5,13 @@ const Experience = () => {
   return (
     <div className='pl-20 pt-14 flex flex-col gap-y-4  text-white bg-[#3b383f] ' >
       <div className='text-4xl md:text-5xl font-bold text-center tracking-wider'>Experiences</div>
-      <ExperienceCard period="Nov,2023-Present" company="Career Break" profile="Career Break"
-        responsibility1="• Enrolled in advanced courses on React, Node.js, and Tailwind CSS, completing Udemy."
-        responsibility2="• Developed personal projects such as cloning UI and Voting App to strengthen skills in frontend/backend development."
-        responsibility3="• Contributed to open-source repositories, enhancing collaboration and coding standards."
+      <ExperienceCard period="Jul,2024-Present" company="Headsup Corporation" profile="Software Engineer 1"
+        responsibility1="• Completed advanced courses in React.js, Node.js, and Tailwind CSS through Udemy, leveraging these skills to contribute
+ effectively to company projects."
+        responsibility2="• Spearheaded the development of key internal projects, such as a UI Clone and Voting App, utilizing both frontend and
+ backend technologies to deliver high-quality solutions."
+        responsibility3="• Contributed to open-source repositories as part of company initiatives, improving team collaboration and adhering to best
+ practices for clean, maintainable code."
       />
       <ExperienceCard period="Mar,2023-October,2023" company="Equipped Analytical Intelligence - Noida" profile="Software Engineer I"
         project="Project - Minerva (Minerva, enables clients to collect, compile, analyse and better understand data in order to help
