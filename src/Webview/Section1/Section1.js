@@ -1,5 +1,5 @@
 import React from "react";
-import "../document/APARNA_RESUME_DEC.pdf"
+import "../document/Singh_Aparna_Resume_Jan25.pdf"
 // ../../../public/Image/design1.PNG
 import Button from "../Component/Button/Button";
 // import PopUp from "../Component/PopUp/PopUp";
