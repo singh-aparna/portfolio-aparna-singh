@@ -16,7 +16,7 @@ const Experience = () => {
       <ExperienceCard period="Mar,2023-October,2023" company="Equipped Analytical Intelligence - Noida" profile="Software Engineer I"
         project="Project - Minerva (Minerva, enables clients to collect, compile, analyse and better understand data in order to help
 them make important decisions and ultimately produce superior returns for their investors.)"
-        tech="Technologies - React JS"
+        tech="Technologies Used: React JS"
         responsibility1="• Designed and executed comprehensive test plans to identify software vulnerabilities and bugs."
         responsibility2="• Utilized Agile methodologies to manage project timelines and deliverables efficiently."
         responsibility3="• Collaborated with other developers in designing solutions for customer requirements."
@@ -25,7 +25,7 @@ them make important decisions and ultimately produce superior returns for their 
 
       <ExperienceCard period="Jun,2022-December,2022" company="ClickValley Technologies OPC Private Limited - Delhi" profile="Software Engineer"
 
-        tech="Technologies - ReactJS | JavaScript | Node.js | Express.js | MongoDB | Mongoose"
+        tech="Technologies Used: ReactJS | JavaScript | Node.js | Express.js | MongoDB | Mongoose"
         responsibility1="• Worked as a Full Stack Developer, on website and gave it a new ’look and feel’ with fully responsive and customdesigned pages. Being a Node.js project, used Express.js to create the server and routes for pages. Used MongoDB
 and Mongoose for the databases. Wrote Vanilla CSS to give it a custom feel and used CSS Flexbox and Media
 Queries to make it highly responsive. Added the functionality using Vanilla JavaScript and Axios to send from data
