@@ -6,6 +6,8 @@ const Experience = () => {
     <div className='pl-20 pt-14 flex flex-col gap-y-4  text-white bg-[#3b383f] ' >
       <div className='text-4xl md:text-5xl font-bold text-center tracking-wider'>Experiences</div>
       <ExperienceCard period="Nov,2023-Present" company="DeopersIndia - Noida" profile="Software Engineer"
+        project="Project - Logistics Tracking System"
+        tech="Technologies Used: ReactJS | NodeJS | ExpressJS | Mongodb"
         responsibility1="• Implemented authentication using JWT & bcrypt.js, handled authentication & protected routes using React Router, and
  developed APIs using Express.js and Node.js. Integrated real-time tracking with WebSockets to display vehicle status,
  speed, and geofence alerts efficiently."
