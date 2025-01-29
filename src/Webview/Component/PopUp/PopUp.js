@@ -14,7 +14,7 @@ const PopUp = () => {
                     <div className='font-semibold md:text-4xl text-3xl'>ABOUT ME</div>
                     <NavLink to="/"><IoCloseSharp /></NavLink>
                 </div>
-                <div className='text-[16px]'>I am a skilled React.js Developer with 1.9 years of experience building responsive, scalable, and user-friendly web applications. I have a strong command of JavaScript (ES6+), React.js, and modern front-end technologies, including HTML5, CSS3, and Tailwind CSS. My experience includes working with state management libraries like Redux and integrating APIs to deliver seamless functionality. I am passionate about providing high-quality code, optimizing performance, and continually learning to stay updated with industry trends.</div>
+                <div className='text-[16px]'>I am a skilled MERN Stack Developer with 3+ years of experience building responsive, scalable, and user-friendly web applications & servers. I have a strong command of JavaScript (ES6+), React.js, Node.js and modern front-end & backend technologies, including HTML5, CSS3, and Tailwind CSS. My experience includes working with state management libraries like Redux and integrating APIs to deliver seamless functionality. I am passionate about providing high-quality code, optimizing performance, and continually learning to stay updated with industry trends.</div>
                 <div className='flex flex-wrap gap-3 text-sm md:text-base'>
                     <Button className="" title="#reactjs" />
                     <Button title="#nextjs" />
